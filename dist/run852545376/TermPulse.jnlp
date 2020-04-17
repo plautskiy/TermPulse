@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TermPulse.jnlp">
+    <information>
+        <title>TermPulse</title>
+        <vendor>kroni</vendor>
+        <description>null</description>
+        <icon href="src/resources/logo.png"/>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="10.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="TermPulse.jar" size="97863" download="eager"/>
+        <jar href="lib/mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="termpulse.TermPulse" name="TermPulse"/>
+</jnlp>
+
