@@ -1,2 +1,2 @@
 # TermPulse
-JavaFX app for accounting works with RTDS
+JavaFX app for accounting works with RTSD
